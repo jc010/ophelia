@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>La U.Net</title>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="contenedor">
+                <img src="images/banner.jpg" width="100%%">
+                <nav class="navbar navbar-inverse ">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#"></a>
+                        </div>
+                        <ul class="nav navbar-nav">   
+                            <li class=""><a  href="Index.html">Inicio    </a>   
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="RegistrarCliente.html">Registrar cliente</a></li>
+                                    <li><a href="ListarClientes.html">Listar Cliente</a></li>
+                                    <li><a href="#">Modificar cliente</a></li>
+                                    <li><a href="#">Eliminar cliente</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Empleados<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Registrar Empleado</a></li>
+                                    <li><a href="#">Listar Empleado</a></li>
+                                    <li><a href="#">Modificar Empleado</a></li>
+                                    <li><a href="#">Eliminar Empleado</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Facturación<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Registrar Factura</a></li>
+                                    <li><a href="#">Listar Factura</a></li>
+                                    <li><a href="#">Modificar Factura</a></li>
+                                    <li><a href="#">Eliminar Factura</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Registrar pedido</a></li>
+                                    <li><a href="#">Listar Pedido</a></li>
+                                    <li><a href="#">Modificar Pedido</a></li>
+                                    <li><a href="#">Eliminar Pedido</a></li>
+                                </ul>
+                            </li>
+                            <ul class="nav navbar-nav navbar-right" class="dropdown-menu">
+
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Registrarse<span class="caret"></span></a>
+                                <li><a href="#"></a></li>
+                            </ul>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+        </header>
+
+
+
+        <div class="container">
+            <h2>Registro de Clientes</h2>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" >Nombre:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" >Apellido:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese Apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" >Documento de Identidad:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="identificacion" placeholder="Ingrese documento de identidad">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" >Telefono:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="telefono" placeholder="Ingrese telefono">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Contraseña:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Ingrese password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Confirmar contraseña:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Ingrese password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Registrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer id="fondo1" >
+            <center>
+                <div id="menu">
+
+
+                    <ul id="barraredes">
+                        <img src="images/facebook.png" width="70" height="70">&nbsp &nbsp &nbsp
+                        <img src="images/gorjeo.png" width="70" height="70">&nbsp &nbsp &nbsp
+                        <img src="images/whatsapp.png" width="70" height="70">&nbsp &nbsp &nbsp
+                        <img src="images/gmail.png" width="70" height="70">&nbsp &nbsp &nbsp
+                    </ul>
+
+                    <p>COPY <br> @ 2016 Derechos Reservados<br> .Nejj Solution</p>
+                </div>
+            </center>
+
+
+        </footer>
+
+
+
+
+
+
+    </body>
+</html>
