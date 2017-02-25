@@ -1,0 +1,141 @@
+.barra{
+    background-color: #253B6E ;
+    border-radius: 0px;
+    color: #253B6E;
+}
+
+.loguito{
+
+
+    padding-right: 5px;
+
+}
+.botoncompra :hover  {
+
+    background-color: red;
+}
+
+.telafondo{
+
+
+
+}
+.fondoimg{
+
+    border-radius: 20%;
+}
+.raya{
+
+    width: 200%;
+    margin-left: -50%;
+
+}
+.rayamision{
+
+    width: 190%;
+    margin-left: -60%;
+
+}
+/** FIJAR FOOTER
+El método es muy simple, como vemos en el código anterior a nuestra etiqueta ‘html‘ le damos una altura mínima del 100%, es decir que como mínimo nuestro documento html captara el 100% de la altura.
+
+Por otro lado también le damos una posición relativa, que nos servirá como veremos a continuación como referencia para posicionar nuestro footer.
+
+Al body le damos un ‘margin-bottom‘ igual a la altura de nuestro footer, para que el contenido y el footer no se solapen.
+
+Vamos a ver el footer.
+
+Es simple, le damos una posición absoluta y lo posicionamos a pie de página con (‘bottom: 0;‘).
+
+
+
+**/
+
+html
+{
+    position: relative; 
+    min-height: 100%;
+}
+body
+{
+    margin: 0 0 65px;
+    background-image: url( "imagenes/baner.jpg");
+}
+footer
+{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 65px;
+    background: #333;
+    border-top: 2px solid #000;
+}
+
+.rayainicial{
+
+    height: 10%;
+
+    border-color: #253B6E;
+}
+
+.banner{
+
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+    z-index: -2;
+}
+.fondonlogueo{
+    width: 40%;
+    height: 30%;
+    background-color: #1891AC;
+    opacity: 0.5;
+    padding-bottom:20%;
+    position: absolute;
+    margin-top: 10%;
+    
+}
+.botonloguin{
+
+    position: absolute; 
+    margin-top: 10%;
+    z-index: 1;
+    float:left;
+    text-align:center;
+    margin-left:-23%;
+    color:#fff;
+    padding-top: 10%;
+}
+.fondonindex{
+   
+    background-color: #1891AC;
+    opacity: 0.5; 
+    position: absolute;
+    width: 95.7%;
+    height: 100%;
+}
+.contenidoform{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: black;
+    
+}
+.formulario{
+    
+    z-index: 3;
+    position: absolute;
+    
+    margin-left: -5%;
+}
+.entradas{
+    
+    text-align:justify;
+}
+.seleccionar{
+    text-align: justify;
+    height: 1%;
+    background-color: red;
+    
+    
+}
